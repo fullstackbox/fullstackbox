@@ -821,8 +821,8 @@ p {
     z-index: 5;
     opacity: 0;
     visibility: hidden;
-    -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
 .slider-active .next.slick-arrow {
     left: auto;
@@ -1056,6 +1056,7 @@ p {
 #about-part{
     position: relative;
     padding-bottom: 220px;
+    background-color: rgba(237, 240, 242, 0.6);
 }
 .about-bg{
     width: 52%;
@@ -1076,6 +1077,7 @@ p {
 
 .about-bg img{
     width: 100%;
+    
 }
 
 .about-cont p{
